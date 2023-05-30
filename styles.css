@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/naturaleza.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8); /* Ajusta el valor de opacidad según tus preferencias */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra al contenedor */
+}
+
+.question {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333; /* Cambia el color del texto de la pregunta */
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+}
+
+.options button:hover {
+  background-color: #f2f2f2;
+}
+
+.next-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+}
+
+.next-button:hover {
+  background-color: #45a049;
+}
+
+.score {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333; /* Cambia el color del texto de la puntuación */
+}
+
+
